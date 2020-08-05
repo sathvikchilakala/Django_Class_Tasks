@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'registration',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blogg',
     'testapp',
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [
@@ -127,4 +129,21 @@ STATICFILES_DIRS=(os.path.join(BASE_DIR,"project_local"),)
 
 
 STATIC_ROOT=os.path.join(BASE_DIR,"project_public")
+
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'sathvik.chilakala@gmail.com'  # fill with your email address
+EMAIL_HOST_PASSWORD = 'Ch@ngeme73' # fill with your password.
+
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window; you may, of course, use a different value.
+REGISTRATION_AUTO_LOGIN = True # Automatically log the user in.
+
+LOGIN_REDIRECT_URL='home'
+LOGIN_URL='login'
+REGISTER_URL='thankyou'
+
+
 

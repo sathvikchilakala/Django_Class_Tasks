@@ -10,3 +10,16 @@ class Post(models.Model):
 	
 	def __str__(self):
 		return self.title
+
+
+from django.db import models
+from django.utils import timezone
+from django import forms
+class EnqDB(models.Model) :
+	name=models.CharField(max_length=30)
+	mail=models.CharField(max_length=30)
+	mno=models.IntegerField()
+	message=models.CharField(max_length=60)
+	
+	def __str__(self):
+		return self.name

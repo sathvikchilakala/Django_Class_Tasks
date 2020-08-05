@@ -2,7 +2,7 @@ from django.conf.urls import url
 from testapp.views import Home
 from .views import BlogData
 from .views import bloggTest
-from .views import Contact,Product,Hello,AboutUs,HelloTemplate,ProductStatic,ProductDynamicOneRecord,Products,BlogData,bloggTest
+from .views import Contact,Product,Hello,AboutUs,HelloTemplate,ProductStatic,ProductDynamicOneRecord,Products,BlogData,bloggTest,Contact,Thanks,StudentInsert,BlogPost,Home,AboutUs
 
 urlpatterns = [
 
@@ -17,8 +17,13 @@ urlpatterns = [
     	url(r'^products/',Products),
     	url(r'^blogdata/',BlogData),
         url(r'^bloggtest/',bloggTest),
-
-
+        url(r'^contact12345/',Contact,name='contact'),
+        url(r'^thanks/',Thanks,name='thankyou'),
+        url(r'^studentinsert/',StudentInsert),
+        url(r'^blogpostabc/',BlogPost,name='postblog'),
+        url(r'^$',Home,name='home'),
+        url(r'^aboutus/',AboutUs,name='aboutus'),
+        
 
 
 ]
