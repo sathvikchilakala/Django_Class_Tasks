@@ -20,7 +20,7 @@ cmake==3.18.0
 common==0.1.2
 confusable-homoglyphs==3.2.0
 constantly==15.1.0
-cryptography==2.9.2
+cryptography==3.2
 cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
