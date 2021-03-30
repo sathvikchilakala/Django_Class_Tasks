@@ -99,7 +99,7 @@ pycparser==2.20
 pygame==1.9.6
 PyGetWindow==0.0.8
 pyglet==1.5.0
-Pygments==2.6.1
+Pygments==2.7.4
 PyHamcrest==2.0.2
 PyJWT==1.7.1
 PyMsgBox==1.0.8
