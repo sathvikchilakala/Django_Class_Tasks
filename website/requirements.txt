@@ -26,7 +26,7 @@ decorator==4.4.2
 defusedxml==0.6.0
 Django==1.11.29
 django-crispy-forms==1.9.2
-django-registration==2.4.1
+django-registration==3.1.2
 django-registration-redux==1.7
 docker-py==1.10.3
 docker-pycreds==0.2.1
