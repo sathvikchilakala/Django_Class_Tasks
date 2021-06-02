@@ -265,7 +265,7 @@ traitlets==4.3.3
 Twisted==20.3.0
 txaio==20.4.1
 ujson==3.0.0
-urllib3==1.25.9
+urllib3==1.26.5
 watchdog==0.10.3
 wcwidth==0.2.5
 webencodings==0.5.1
