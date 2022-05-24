@@ -249,7 +249,7 @@ tabulate==0.8.3
 tb-nightly==1.14.0a20190301
 tensorboard==2.0.2
 tensorboard-plugin-wit==1.7.0
-tensorflow==2.0.0
+tensorflow==2.6.4
 tensorflow-estimator==2.0.1
 tensorpack==0.9.4
 termcolor==1.1.0
